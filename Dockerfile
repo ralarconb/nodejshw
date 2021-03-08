@@ -11,4 +11,5 @@ WORKDIR /home/app
 RUN npm install express nodemon
 
 # no need for /home/app/server.js because of WORKDIR
-CMD ["node", "start"]
+#CMD ["node", "start"]
+CMD ["node start"]
