@@ -30,9 +30,13 @@ git clone https://github.com/ralarconb/nodejshw.git
 cd nodejshw/
 docker build -t nodejshw:1.0 .
 docker images
-docker run nodejshw:1.0
+docker run -p3000:3000 nodejshw:1.0
 ```
 - Look running containers
 ```sh
 docker ps
+```
+- Test the app
+```
+curl http://localhost:3000
 ```
