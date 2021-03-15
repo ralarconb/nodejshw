@@ -23,3 +23,16 @@ npm install express nodemon
 npm start
 ```
 - http://localhost:3000
+# Setup
+- Clone the repository, build an image and run a container
+```sh
+git clone https://github.com/ralarconb/nodejshw.git
+cd nodejshw/
+docker build -t nodejshw:1.0 .
+docker images
+docker run nodejshw:1.0
+```
+- Look running containers
+```sh
+docker ps
+```

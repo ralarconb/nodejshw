@@ -10,5 +10,9 @@ WORKDIR /home/app
 # will execute npm install in /home/app because of WORKDIR
 RUN npm install express nodemon
 
+ENV PORT=3000
+
+EXPOSE 3000
+
 # no need for /home/app/server.js because of WORKDIR
 CMD ["npm", "start"]
