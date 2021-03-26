@@ -28,9 +28,10 @@ npm start
 ```sh
 git clone https://github.com/ralarconb/nodejshw.git
 cd nodejshw
-ls nodejshw
+ls 
+vi Dockerfile
 ```
-- Look up at the Dockerfile
+- ESC and :q to close vi editor
 - Build the image
 ```sh
 docker build -t nodejshw:1.0 .
