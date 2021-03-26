@@ -31,6 +31,7 @@ cd nodejshw
 ls nodejshw
 ```
 - Look up at the Dockerfile
+- Build the image
 ```sh
 docker build -t nodejshw:1.0 .
 docker images
