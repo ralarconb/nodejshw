@@ -30,7 +30,7 @@ git clone https://github.com/ralarconb/nodejshw.git
 cd nodejshw
 ls nodejshw
 ```sh
-- Look up at the DockerFile
+- Look up at the Dockerfile
 ```
 docker build -t nodejshw:1.0 .
 docker images
