@@ -27,7 +27,11 @@ npm start
 - Clone the repository, build an image and run a container
 ```sh
 git clone https://github.com/ralarconb/nodejshw.git
-cd nodejshw/
+cd nodejshw
+ls nodejshw
+```sh
+- Look up at the DockerFile
+```
 docker build -t nodejshw:1.0 .
 docker images
 docker run -p3000:3000 nodejshw:1.0
