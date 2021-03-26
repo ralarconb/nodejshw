@@ -29,9 +29,9 @@ npm start
 git clone https://github.com/ralarconb/nodejshw.git
 cd nodejshw
 ls nodejshw
-```sh
-- Look up at the Dockerfile
 ```
+- Look up at the Dockerfile
+```sh
 docker build -t nodejshw:1.0 .
 docker images
 docker run -p3000:3000 nodejshw:1.0
